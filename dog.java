@@ -19,11 +19,7 @@ class dog{
 	
 abstract class Vehicle{
 
-	abstract double calculateRental(int days){
-		
-		return 0.0;
-		
-		}
+	abstract double calculateRental(int days);
 	
 	
 }
