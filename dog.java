@@ -1,6 +1,6 @@
 class dog{
 	
-	public static void main(String cat[]){
+	public static void main(String args[]){
 		
 		Car carObj = new Car();
 		double resultcar = carObj.calculateRental(8);
@@ -17,11 +17,11 @@ class dog{
 	
 	}
 	
-class Vehicle{
+abstract class Vehicle{
 
-	double calculateRental(int days){
+	abstract double calculateRental(int days){
 		
-		return 0;
+		return 0.0;
 		
 		}
 	
